@@ -13,6 +13,7 @@ body {
 }
 
 p {
+	padding: 0;
 	text-align: center;
 }
 
@@ -27,6 +28,8 @@ a:hover {
 
 .header {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	gap: 30px;
 	background-color: #1b1bb3;
 	padding: 15px 25px;
@@ -34,6 +37,7 @@ a:hover {
 
 .header h1 {
 	width: 70%;
+	text-align: center;
 }
 
 .logo {
@@ -45,6 +49,7 @@ a:hover {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 	padding: 45px 0;
 }
 
@@ -75,11 +80,13 @@ a:hover {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 	margin: 45px 0;
 }
 
 .card {
 	width: 220px;
+	height: 400px;
 	background-color: #1b1bb3;
 	border-radius: 8px;
 	display: flex;
@@ -87,6 +94,7 @@ a:hover {
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
+	margin-bottom: 10px;
 }
 
 .footer {
